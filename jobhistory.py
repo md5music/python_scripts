@@ -16,8 +16,8 @@ from selenium import webdriver
 
 def linscrape():
     #imitate web browser
-    driver = webdriver.Chrome(executable_path='C:/Users/Michael/Downloads/chromedriver_win32/chromedriver.exe')
-    profile_link = 'https://www.linkedin.com/in/michaeldswanson'
+    driver = webdriver.Chrome(executable_path='path/to/chromedriver')
+    profile_link = 'https://www.linkedin.com/in/user'
     driver.get(profile_link)
     html = driver.page_source
 
